@@ -1,0 +1,6 @@
+package uz.sevimlitv.flutter_sevimli;
+
+import io.flutter.embedding.android.FlutterActivity;
+
+public class MainActivity extends FlutterActivity {
+}
