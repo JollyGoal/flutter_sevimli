@@ -7,6 +7,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     int month = DateTime.now().month;
+    int day = DateTime.now().day;
     Size _size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: Palette.scaffoldBackground,
@@ -15,7 +16,7 @@ class HomeScreen extends StatelessWidget {
         height: _size.height,
         child: Stack(
           children: [
-            12==month || month== 2 || month == 1 ? ShaderMask(
+            (12==month && day >= 15) || (month == 1 && day <= 10) ? ShaderMask(
               shaderCallback: (rect) => RadialGradient(
                 center: Alignment.center,
                 radius: 1.0,

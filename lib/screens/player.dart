@@ -67,8 +67,9 @@
 //     );
 //     BetterPlayerDataSource dataSource = BetterPlayerDataSource(
 //         BetterPlayerDataSourceType.network,
-//         "https://stream8.itv.uz/sevimli/index.m3u8",
-//         useHlsSubtitles: true,
+//         // "https://streaming.sevimliplay.tv/eyAic2Vzc2lvbl9pZCI6ImFhMWQxNGJmLTA5ZGItNGJmZC04ZGY0LTdkOGIyNjU4MTMzMCIsICJkb21haW5fbmFtZSI6InN0cmVhbWluZy5zZXZpbWxpcGxheS50diIsICJpcF9hZGRyZXNzIjoiMTk1LjE1OC4yNC4xMTYiLCAiZXhwaXJhdGlvbl9kYXRlIjoiMjA1MC0wMi0wMlQxMjowMDowMFoiLCAic3RyZWFtX25hbWUiOiIxIiwgInN0cmVhbV9wYXRoIjoiL2lwX3Y1IiwgImRhdGFjZW50ZXIiOiJzZXYiLCAiZHJtIjoic3BidHZjYXMiLCAicHJvdG9jb2wiOiJobHMiIH0=/MCwCFDkKX1RQeMiZXukHUEtoJUfCR3hGAhRDf5LdOT4ZxIGPXzCOfJ0IuORf1Q/ip_v5/1.m3u8",
+//         "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+//         // useHlsSubtitles: true,
 //         liveStream: true);
 //     _betterPlayerController = BetterPlayerController(betterPlayerConfiguration);
 //     _betterPlayerController.setupDataSource(dataSource);
@@ -80,8 +81,8 @@
 //   void setupDataSource() {
 //     BetterPlayerDataSource dataSource = BetterPlayerDataSource(
 //         BetterPlayerDataSourceType.network,
-//         "https://stream8.itv.uz/sevimli/index.m3u8",
-//         useHlsSubtitles: false,
+//         "https://streaming.sevimliplay.tv/eyAic2Vzc2lvbl9pZCI6ImFhMWQxNGJmLTA5ZGItNGJmZC04ZGY0LTdkOGIyNjU4MTMzMCIsICJkb21haW5fbmFtZSI6InN0cmVhbWluZy5zZXZpbWxpcGxheS50diIsICJpcF9hZGRyZXNzIjoiMTk1LjE1OC4yNC4xMTYiLCAiZXhwaXJhdGlvbl9kYXRlIjoiMjA1MC0wMi0wMlQxMjowMDowMFoiLCAic3RyZWFtX25hbWUiOiIxIiwgInN0cmVhbV9wYXRoIjoiL2lwX3Y1IiwgImRhdGFjZW50ZXIiOiJzZXYiLCAiZHJtIjoic3BidHZjYXMiLCAicHJvdG9jb2wiOiJobHMiIH0=/MCwCFDkKX1RQeMiZXukHUEtoJUfCR3hGAhRDf5LdOT4ZxIGPXzCOfJ0IuORf1Q/ip_v5/1.m3u8",
+//         // useHlsSubtitles: true,
 //         liveStream: true);
 //     _betterPlayerController.setupDataSource(dataSource);
 //   }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sevimli/screens/yoyo_pl.dart';
 import 'config/palette.dart';
 import 'screens/screens.dart';
 // import 'package:flutter_localizations/flutter_localizations.dart';
